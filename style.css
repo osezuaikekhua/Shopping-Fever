@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --pink: #e5345b;
+}
+body{
+    font-family: var(--sm-font);
+}
+
+/* button */
+.bg-primary{
+    background-color: var(--pink)!important;
+}
+
+.btn:not(.nav-btns button){
+    background-color: #fff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+}
+.btn:not(.nav-btns button):hover{
+    background-color: var(--pink);
+    color: #fff;
+    border-color: var(--pink);
+}
+
+/* text color */
+.text-primary{
+    color: var(--pink)!important;
+}
+
+/* navbar */
+.navbar{
+    -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img{
+    width: 30px;
+}
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.nav-link:hover{
+    color: var(--pink)!important;
+}
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+/* header */
+#header{
+    background: url(images/banner-img-1.jpg) top/cover no-repeat;
+    margin-bottom: 100px;
+}
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+.carousel-item .btn{
+    border-color: #fff!important;
+}
+.carousel-item .btn:hover{
+    border-color: var(--pink)!important;
+}
+
+/* Featured */
+#featured{
+    padding: 30px 100px;
+}
+#featured h2,p{
+   text-align: center;
+    margin-bottom: 20px;
+}
+#featured h2{
+    font-size: 60px;
+}
+#featured p{
+    font-size: 20px;
+}
+#featured .clothes{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    text-align: center;
+}
+
+#featured .clothes:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+#featured .clothes img{
+   width: 100%;
+}
+
+#featured .clothes .description{
+    text-align: start;
+    padding: 10px 0;
+}
+
+ #featured .clothes span{
+    text-align: start;
+    font-size: 14px;
+}
+
+#featured .clothes h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 18px;
+}
+
+#featured .clothes .description i{
+    font-size: 15px;
+    color: rgb(243, 181, 25);
+}
+
+#featured .clothes h4{
+    padding-top: 7px;
+    font-weight: 700;
+    color: #088178;
+}
+
