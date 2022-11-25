@@ -162,6 +162,7 @@ button.white{
     padding-top: 7px;
     font-weight: 700;
     color: #088178;
+    font-size: 20px;
 }
 
 #featured .clothes .cart{
@@ -175,6 +176,7 @@ button.white{
     position: absolute;
     bottom: 20px;
     right: 10px;
+    cursor: pointer;
 }
 
 
@@ -267,12 +269,20 @@ button.white{
     border: 1px solid #088178;
 }
 
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
 #banner3 .banner-box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     background-image: url("images/banner/b7.jpg");
+    width: 30%;
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -281,7 +291,23 @@ button.white{
     margin-bottom: 20px;
 }
 
+#banner3 .banner-box2{
+    background-image: url("images/banner/b4.jpg");
+}
+
+#banner3 .banner-box3{
+    background-image: url("images/banner/b16.jpg");
+}
+
+
 #banner3 h2{
-    color: #ec544e;
+    color: #fff;
     font-weight: 900;
+    font-size: 30px;
+}
+
+#banner3 h3{
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 15px;
 }
